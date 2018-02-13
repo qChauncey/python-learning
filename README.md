@@ -1,2 +1,2 @@
 # python-learning
-rt
+codes during learning python
