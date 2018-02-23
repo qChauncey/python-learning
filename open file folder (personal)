@@ -1,0 +1,14 @@
+import tkinter #further gui
+import os
+
+def op(self):
+    print("打开文件夹%s" % self)
+    os.startfile('D:\学校\%s' % self)
+content=os.listdir('D:\学校')
+sorted(content)
+fl=len(content)
+for i in range (1,fl):
+    print(i,".",content[i-1])
+choice=int(input("打开的是...?"))
+fi=content[choice-1]
+op(fi)
